@@ -1,0 +1,45 @@
+/*---------- genericos para alterar a pag inteira ----------*/
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+header
+{
+    background: #6A0DAD;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+body
+{
+    font-family: Arial, sans-serif;
+    background:#D8BFD8;
+    margin: 0;
+    padding: 0;
+}
+
+/*----------Estilizando a pagina----------*/
+
+table, th, td
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+h1
+{
+    text-align: center;
+    margin-top: 10px;
+}
+
+p
+{
+    text-align: center;
+    margin-top: 10px
+}
