@@ -21,6 +21,12 @@ body
     padding: 0;
 }
 
+.center-text
+{
+    text-align: center;
+}
+
+
 /*----------Estilizando a pagina----------*/
 
 table, th, td
@@ -43,3 +49,37 @@ p
     text-align: center;
     margin-top: 10px
 }
+
+/*---------- Estilizando Botão ----------*/
+
+button
+{
+    background-color: #ffffff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+button:hover
+{
+    background-color: #6A0DAD;
+    color: black;
+}
+
+a
+{
+    line-height: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+footer
+{
+    text-align: center;
+}
+

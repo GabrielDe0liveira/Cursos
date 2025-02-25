@@ -3,45 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Style.css/style.css">
+    
+    <style>
+        table, th, td
+        {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        table
+        {
+            width: 50%;
+        }
+    </style>
+
     <title>Document</title>
 </head>
 <body>
     <h2>Exemplo de tabela</h2>
 
-    <table>
-        <thead>
+    <!--
+        <section>
+            <table>
+                <Caption>Título da tabela</Caption>
+                <thead>
+                    <tr>
+                        <th>Coluna 1</th>
+                        <th>Coluna 2</th>
+                        <th>Coluna 3</th>
+                    </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Coluna 1 - Linha 1</td>
+                    <td>Coluna 2 - Linha 1</td>
+                    <td>Coluna 3 - Linha 1</td>
+                </tr>
+                <tr>
+                    <td>Coluna 1 - Linha 2</td>
+                    <td>Coluna 2 - Linha 2</td>
+                    <td>Coluna 3 - Linha 2</td>
+                </tr>
+                <tr>
+                    <td>Coluna 1 - Linha 3</td>
+                    <td>Coluna 2 - Linha 3</td>
+                    <td>Coluna 3 - Linha 3</td>
+                </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>Rodapé</td>
+                        <td>Rodapé</td>
+                        <td>Rodapé</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+    -->
+
+    <section>
+        <table>
             <tr>
-                <th>Coluna 1</th>
-                <th>Coluna 2</th>
-                <th>Coluna 3</th>
+                <td colspan="2">Célula Unica</td>
             </tr>
-        </thead>
-        <tbody>
-        <tr>
-            <td>Coluna 1 - Linha 1</td>
-            <td>Coluna 2 - Linha 1</td>
-            <td>Coluna 3 - Linha 1</td>
-        </tr>
-        <tr>
-            <td>Coluna 1 - Linha 2</td>
-            <td>Coluna 2 - Linha 2</td>
-            <td>Coluna 3 - Linha 2</td>
-        </tr>
-        <tr>
-            <td>Coluna 1 - Linha 3</td>
-            <td>Coluna 2 - Linha 3</td>
-            <td>Coluna 3 - Linha 3</td>
-        </tr>
-        </tbody>
-        <tfoot>
             <tr>
-                <td>Rodapé</td>
-                <td>Rodapé</td>
-                <td>Rodapé</td>
+                <td>Linha 2 A</td>
+                <td>Linha 2 B</td>
             </tr>
-        </tfoot>
-    </table>
-    
+            <tr>
+                <td>Linha 3 A</td>
+                <td>Linha 3 B</td>
+            </tr>
+        </table>
+
+        <p> Colspan acima <br>  Rowspan abaixo <br></p>
+
+        <table>
+            <tr>
+                <td rowspan="2">Célula Unica</td>
+                <td>Coluna B</td>
+                <td>Coluna C</td>
+            </tr>
+            <tr>
+                <td>1 B</td>
+                <td>1 C</td>
+            </tr>
+        </table>
+    </section>
 </body>
 </html>
