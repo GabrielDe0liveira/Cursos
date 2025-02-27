@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        .form-container
+        {
+            width: 60%;
+            margin: auto;
+        }
+        .form-grop
+        {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h3>Formulários</h3>
+    <div class="form-container">
+        <form action="https://sys4soft.com/udemy/forms/index.php" method="post">
+
+            <!--Input Text-->
+            <div class="form-group">
+                <input type="text" name="campo_texto" placeholder="Digite um texto">
+            </div>
+
+            <!--Input Submit-->
+            <div class="form-grop">
+                <input type="submit" value="Enviar">
+            </div>
+
+            <!--Input Email-->
+            <div class="form-grop">
+                <input type="email" name="campo_email" multiple>
+            </div>
+
+            <!--Input Password-->
+            <div class="form-grop">
+                <input type="password" name="campo_senha">
+            </div>
+
+            <!--Input number-->
+            <div class="form-grop">
+                <input type="number" name="campo_numero" min="0" max="10">
+                <!-- os atributos min e max dizem qual o valor minimo e o maximo-->
+            </div>
+
+            <!--Input URL-->
+            <div class="form-grop">
+                <input type="url" name="campo_url">
+            </div>
+
+            <!--Input Date-->
+            <div class="form-grop">
+                <input type="date" name="campo_data">
+            </div>
+
+            <!--Input Time-->
+            <div>
+                <input type="time" name="campo_hora">
+            </div>
+
+            <div>
+                <input type="week" name="campo_hora">
+            </div>
+
+            <div>
+                <input type="month" name="campo_hora">
+            </div>
+
+            <!--Input DateTime-->
+            <div>
+                <input type="datetime-local" name="campo_hora">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
