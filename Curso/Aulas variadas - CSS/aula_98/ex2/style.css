@@ -1,0 +1,8 @@
+.posicao
+{
+    position: absolute;
+    padding: 5px;
+    background-color: yellow;
+    top: 0px;
+    left: 100px;
+}

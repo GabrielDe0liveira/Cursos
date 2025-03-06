@@ -1,0 +1,21 @@
+div
+{
+    width: 300px;
+    padding: 30px;
+    position: absolute;
+}
+
+.area-1
+{
+    z-index: 1;
+    left: 50px;
+    top: 60px;
+    background-color: green;
+}
+
+.area-2
+{
+    left: 80px;
+    top: 80px;
+    background-color: yellow;
+}
