@@ -1,0 +1,22 @@
+div
+{
+    margin: 10px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+.espaco-1
+{
+    background: linear-gradient(90deg, black, blue)
+}
+
+.espaco-2
+{
+    background-image: url('https://www.google.com.br/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png');
+    background-repeat: no-repeat;
+}
+
+.espaco-3
+{
+    
+}

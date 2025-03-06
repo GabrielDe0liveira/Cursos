@@ -1,0 +1,10 @@
+p
+{
+    display: inline;
+}
+/*O display normal do p é em bloco, um em cada linha*/
+span
+{
+    display: block;
+}
+/*O display normal do span é em linha, um ao lado do outro*/
