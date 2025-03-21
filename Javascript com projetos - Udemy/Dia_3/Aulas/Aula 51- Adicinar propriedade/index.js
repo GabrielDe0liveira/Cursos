@@ -1,0 +1,26 @@
+
+
+function createBook(title, author, pages){
+
+    const book = {
+        bookTitle: title,
+        bookAuthor: author,
+        bookPages: pages,
+        printBook: function(){
+            console.log("Printing...");
+        }
+    };
+    return book;
+}
+ 
+
+const book1 = createBook("Harry Potter", "J.K. Rowling", 300);
+const book2 = createBook("Senhor dos Anéis", "J.R.R. Tolkien", 500);
+
+book1.color="white";
+
+console.log(book1);
+console.log(book2);
+
+
+
