@@ -1,7 +1,13 @@
 
 function formatMoney(value){
+    value = Math.ceil(value * 100) / 100 //arredonda o valor para cima dessa forma trabalha sempre no utlimo digito.
     value = value.toFixed(2) //fixa o valor decimal em 2 casas
     return "$ " + value
+}
+
+function formatSplit(value){
+    if (value == 1) return value + " Person"
+    return value + " People"
 }
 
 function update(){
@@ -19,7 +25,7 @@ function update(){
     document.getElementById("tipValue").innerHTML = formatMoney(tipValue)
     document.getElementById("totalWithTip").innerHTML = formatMoney(billTotal)
     document.getElementById("billEach").innerHTML = formatMoney(billTotal / split)
-    document.getElementById("splitValue").innerHTML = split
+    document.getElementById("splitValue").innerHTML = formatSplit(split)
     document.getElementById("tipEach").innerHTML = formatMoney(tipValue / split)
     document.getElementById("totalEach").innerHTML = formatMoney(totalEach)
 }
