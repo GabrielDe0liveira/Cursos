@@ -12,7 +12,7 @@ function newGame(){
 
 function init(){
     computerNumber = Math.floor(Math.random() * 100 + 1) //faz o computador escolher um numero aleatório de 0 a 100 (o +1 é por que o computador pega de 0 a 99)
-    //console.log(computerNumber)
+    console.log(computerNumber)
 }
 
 function compareNumbers(){
